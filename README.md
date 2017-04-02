@@ -1,1 +1,1 @@
-# infant_pcasl
+# PCASL analysis for 6 month olds
