@@ -65,7 +65,6 @@ grouplevel.connect([(grabcbfdata, merge,[('cbf_list', 'in_files')]),
                     (merge, apply_mask, [('merged_file','in_file')]),
                     (apply_mask, randomise, [('out_file', 'in_file')]),
                     (randomise, datasink, [('t_corrected_p_files', 't_corrected_p_files')]),
-                    (randomise, datasink, [('t_p_files', 't_p_files')]),
                     (randomise, datasink, [('tstat_files', 'tstat_files')])
                    ])
 
